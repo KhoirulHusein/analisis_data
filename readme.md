@@ -5,10 +5,10 @@ Proyek ini berisi analisis komprehensif dari E-Commerce Public Dataset, mencakup
 ## Struktur Folder
 
 ```
-submission/
+analisis_data/
 ├── data/                             # dataset asli
 ├── analysis.ipynb                    # notebook lengkap & sudah run
-├── app.py                            # streamlit dashboard
+├── dashboard/dashboard.py            # streamlit dashboard
 ├── requirements.txt                  # daftar library yang digunakan
 └── README.md                         # dokumentasi proyek
 ```
@@ -31,7 +31,7 @@ Proyek ini menganalisis dataset e-commerce publik untuk mendapatkan insight bisn
 
 2. Jalankan aplikasi Streamlit:
    ```
-   streamlit run app.py
+   streamlit run dashboard/dasboard.py
    ```
 
 3. Dashboard akan terbuka di browser Anda secara otomatis, biasanya di alamat `http://localhost:8501`.
